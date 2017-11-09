@@ -2,7 +2,13 @@ var selected;
 
 $(function() { 
  	$("#play").on('click', function(){
-		
+		var audio = $('#player');
+		audio[0].oncanplaythrough = audio[0].play();
+	});
+
+	$("#pause").on('click', function(){
+		var audio = $('#player');
+		audio[0].pause();
 	});
 
  	

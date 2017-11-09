@@ -4,10 +4,7 @@
 	 <meta charset="UTF-8"> 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet"> 
-	<script
-			  src="https://code.jquery.com/jquery-3.2.1.min.js"
-			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-			  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="index.js"></script>
 	<title>Sonance</title>
 </head>
@@ -24,8 +21,11 @@
 	</div>
 	<br><br>
 	<div style="text-align: center">
-		<small>Click on a sound to start playing</small>
 		<img src="player.png" alt="play" id="play">
+		<img src="pause.png" alt="pause" id="pause">
+	</div>
+	<div style="text-align: center;">
+		<small>Click on a sound to start playing</small>
 	</div>
 	<div style="text-align: center">
 		 <audio id="player" controls loop>
