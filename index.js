@@ -1,8 +1,6 @@
 
 browser.browserAction.onClicked.addListener(function(tab){
-	browser.tabs.executeScript(null, {
-	  file: "sonance.js"
-	});
+	browser.browserAction.setPopup({popup: "options/index.html"});
 });
 
 

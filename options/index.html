@@ -13,18 +13,25 @@
 </head>
 <body>
 	<div class="wrapper">
-	  <div class="box a">City</div>
-	  <div class="box b">Beach</div>
-	  <div class="box c">Campfire</div>
-	  <div class="box d">Thunderstorm</div>
-	  <div class="box e">Birds</div>
-	  <div class="box f">Coffee Shop</div>
-	  <div class="box g">Forrest 1</div>
-	  <div class="box h">Forrest 2</div>
+	  <div class="box a" data-src="../resources/city.mp3">City</div>
+	  <div class="box b" data-src="../resources/beach.mp3">Beach</div>
+	  <div class="box c" data-src="../resources/campfire.mp3">Campfire</div>
+	  <div class="box d" data-src="../resources/thunder.mp3">Thunderstorm</div>
+	  <div class="box e" data-src="../resources/birds.mp3">Birds</div>
+	  <div class="box f" data-src="../resources/coffee-shop.mp3">Coffee Shop</div>
+	  <div class="box g" data-src="../resources/forrest-1.mp3">Forrest 1</div>
+	  <div class="box h" data-src="../resources/forrest-2.mp3">Forrest 2</div>
 	</div>
 	<br><br>
 	<div style="text-align: center">
+		<small>Click on a sound to start playing</small>
 		<img src="player.png" alt="play" id="play">
+	</div>
+	<div style="text-align: center">
+		 <audio id="player" controls loop>
+		  <source id="sonance" src="../resources/campfire.mp3" type="audio/mpeg">
+		</audio> 
+		
 	</div>
 </body>
 </html>

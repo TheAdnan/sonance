@@ -1,19 +1,25 @@
 body {
+font-family: 'Gloria Hallelujah', cursive;
   margin: 40px;
 }
 .wrapper {
-        font-family: 'Gloria Hallelujah', cursive;
         display: grid;
         grid-gap: 10px;
         background-color: #fff;
         color: #444;
 }
 
+#player{
+    visibility: hidden;
+}
+
 #play{
     cursor: pointer;
 }
 
+
 .box {
+    cursor: pointer;
     background-color: #444;
     color: #fff;
     border-radius: 6px;
