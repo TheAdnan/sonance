@@ -1,6 +1,5 @@
 ## Sonance
 
-##### Ambient sounds for your browser
+![sonanca](https://github.com/TheAdnan/sonance/blob/master/icons/sonance.png?raw=true) __Ambient sounds for your browser__ ![sonanca](https://github.com/TheAdnan/sonance/blob/master/icons/sonance.png?raw=true)
 
-#### Note:
-_I'm trying to make this a Firefox WebExtension, but I'm having trouble with the popup because it cuts off the audio after it closes, so I'll have to tinker a bit. Any help and suggestion is welcome._
+This is a Firefox Web Extension is the poor man's _Noisli_. This is more of an experimental extension. Feel free to contribute to this project with new ambient sounds, improvements in the code or any other suggestion.
