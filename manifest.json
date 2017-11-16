@@ -10,10 +10,12 @@
   },
 
   "browser_action": {
-    "default_icon": "icons/sonance.png",
-    "default_title": "Sonance",
-    "default_popup": "options/index.html"
+    "default_icon": "icons/sonance.png"
   },
 
-  "web_accessible_resources": ["resources/*.mp3"]
+  "background": {
+    "scripts": ["index.js"]
+  },
+
+  "web_accessible_resources": ["resources/*.mp3", "sonance/*"]
 }
