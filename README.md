@@ -1,6 +1,6 @@
 ## Sonance
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/cyrillo/" target="_blank">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/sonance/" target="_blank">
     <img src="https://img.shields.io/badge/Firefox-Addon-orange.svg" alt="Download">
 </a>
 
