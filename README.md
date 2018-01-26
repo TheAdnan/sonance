@@ -1,5 +1,9 @@
 ## Sonance
 
+<a href="https://addons.mozilla.org/en-US/firefox/addon/cyrillo/" target="_blank">
+    <img src="https://img.shields.io/badge/Firefox-Addon-orange.svg" alt="Download">
+</a>
+
 [![Help Contribute to Open Source](https://www.codetriage.com/theadnan/sonance/badges/users.svg)](https://www.codetriage.com/theadnan/sonance)
 
 ![sonanca](https://github.com/TheAdnan/sonance/blob/master/icons/sonance.png?raw=true) __Ambient sounds for your browser__ ![sonanca](https://github.com/TheAdnan/sonance/blob/master/icons/sonance.png?raw=true)
