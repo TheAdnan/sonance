@@ -1,24 +1,41 @@
-var selected;
+let selected = [];
 
 $(function() { 
  	$("#play").on('click', function(){
-		var audio = $('#player');
-		audio[0].oncanplaythrough = audio[0].play();
+		selected.forEach((elem) => {
+			playAndSwap(elem);
+	 });
 	});
 
 	$("#pause").on('click', function(){
-		var audio = $('#player');
-		audio[0].pause();
+		selected.forEach((elem) => {
+			pauseAndSwap(elem);
+		});
 	});
 
  	
  	$('.box').on('click', function(){
- 		selected = $(this).attr("data-src");
- 		$("#sonance").attr('src', selected);
- 		var audio = $('#player');
-    	audio[0].pause();
-    	audio[0].load();
-    	audio[0].oncanplaythrough = audio[0].play();
- 	});
+		 const audio = $(this)[0].firstElementChild;
+		 if (audio.paused) {
+			selected.push($(this));
+			playAndSwap($(this));
+		 } else {
+			selected = selected.filter(arg => arg[0] !== $(this)[0]);
+			pauseAndSwap($(this));
+		 }
+	 });
+	 
+	 const playAndSwap = (elem) => {
+			const audio = elem[0].firstElementChild;
+			audio.play();
+			elem.removeClass('paused');
+			elem.addClass('playing');		 
+	 }
 
+	 const pauseAndSwap = (elem) => {
+			const audio = elem[0].firstElementChild;
+			audio.pause();
+			elem.removeClass('playing');
+			elem.addClass('paused');
+	 }
 });
