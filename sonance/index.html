@@ -10,15 +10,59 @@
 </head>
 <body>
 	<div class="wrapper">
-	  <div class="box a" data-src="../resources/city.mp3">City</div>
-	  <div class="box b" data-src="../resources/beach.mp3">Beach</div>
-	  <div class="box c" data-src="../resources/campfire.mp3">Campfire</div>
-	  <div class="box d" data-src="../resources/thunder.mp3">Thunderstorm</div>
-	  <div class="box e" data-src="../resources/birds.mp3">Birds</div>
-	  <div class="box f" data-src="../resources/coffee-shop.mp3">Coffee Shop</div>
-	  <div class="box g" data-src="../resources/forrest-1.mp3">Forrest 1</div>
-	  <div class="box h" data-src="../resources/forrest-2.mp3">Forrest 2</div>
-	  <div class="box i" data-src="../resources/soothing_sound_from_archive_org.mp3">Soothing 1</div>
+		<div class="box a paused" data-src="../resources/city.mp3">City
+			<audio id="city-player" loop>
+				<source src="../resources/city.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+		<div class="box b paused" data-src="../resources/beach.mp3">Beach
+			<audio id="beach-player" loop>
+				<source src="../resources/beach.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+		<div class="box c paused" data-src="../resources/campfire.mp3">Campfire
+			<audio id="campfire-player" loop>
+				<source src="../resources/campfire.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+		<div class="box d paused" data-src="../resources/thunder.mp3">Thunderstorm
+			<audio id="thunder-player" loop>
+				<source src="../resources/thunder.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+		<div class="box e paused" data-src="../resources/birds.mp3">Birds
+			<audio id="birds-player" loop>
+				<source src="../resources/birds.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+		<div class="box f paused" data-src="../resources/coffee-shop.mp3">Coffee Shop
+			<audio id="coffee-shop-player" loop>
+				<source src="../resources/coffee-shop.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+		<div class="box g paused" data-src="../resources/forest-1.mp3">Forest 1
+			<audio id="forest1-player" loop>
+				<source src="../resources/forest-1.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+		<div class="box h paused" data-src="../resources/forest-2.mp3">Forest 2
+			<audio id="forest2-player" loop>
+				<source src="../resources/forest-2.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+		<div class="box i paused" data-src="../resources/soothing_sound_from_archive_org.mp3">Soothing 1
+			<audio id="soothing-player" loop>
+				<source src="../resources/soothing_sound_from_archive_org.mp3" type="audio/mpeg">
+			</audio>
+		</div>
 	</div>
 	<br><br>
 	<div style="text-align: center">
@@ -27,12 +71,6 @@
 	</div>
 	<div style="text-align: center;">
 		<small>Click on a sound to start playing</small>
-	</div>
-	<div style="text-align: center">
-		 <audio id="player" controls loop>
-		  <source id="sonance" src="../resources/campfire.mp3" type="audio/mpeg">
-		</audio> 
-		
 	</div>
 </body>
 </html>
