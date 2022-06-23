@@ -10,4 +10,4 @@
 
 This Firefox Web Extension is the poor man's _Noisli_. This is more of an experimental extension. Feel free to contribute to this project with new ambient sounds, improvements in the code or any other suggestion.
 
-The add-on has been approved and can be downloaded from here: [Download Sonance](https://addons.mozilla.org/en-US/firefox/addon/sonance/).
+The add-on has been approved and can be downloaded from here: [Download Sonance](https://addons.mozilla.org/firefox/addon/sonance/).
