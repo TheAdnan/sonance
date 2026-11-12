@@ -26,6 +26,27 @@ font-family: 'Gloria Hallelujah', cursive;
     font-size:120%;
 }
 
+.volume-control {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    cursor: default;
+}
+
+.volume-control input[type="range"] {
+    flex: 1;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.volume-control output {
+    min-width: 3.5em;
+    text-align: right;
+}
+
 .paused {
     background-color: #444;
 }
